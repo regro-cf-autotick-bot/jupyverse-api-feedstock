@@ -1,5 +1,5 @@
 {% set name = "jupyverse-api" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyverse_api-{{ version }}.tar.gz
-  sha256: 9eb3aac9e22058e97c197a36e1f93c2b3d9b3a7e296341fa26f0a35eb65af7a5
+  sha256: 593ab7bb8799b714f16aa33573497073295e06d644d2d2e49f805aa50d396fbc
 
 build:
   noarch: python
